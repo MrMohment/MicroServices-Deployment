@@ -1,0 +1,18 @@
+#!/bin/bash
+
+
+sudo timedatectl set-timezone America/New_York
+sudo hostnamectl set-hostname jenkins
+sudo wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/redhat/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io-2023.key
+sudo apt upgrade
+sudo apt install fontconfig java-17-openjdk
+sudo apt install jenkins
+sudo systemctl daemon-reload
+sudo systemctl enable jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+echo "echo of jenkins installation"
+sudo su - ubuntu
+
