@@ -8,8 +8,4 @@ IMAGE_TAG_ADMIN_SERVER: "${IMAGE_TAG_ADMIN_SERVER}"
 IMAGE_TAG_HYSTRIX_DASHBOARD: "${IMAGE_TAG_HYSTRIX_DASHBOARD}"
 IMAGE_TAG_GRAFANA_SERVICE: "${IMAGE_TAG_GRAFANA_SERVICE}"
 IMAGE_TAG_PROMETHEUS_SERVICE: "${IMAGE_TAG_PROMETHEUS_SERVICE}"
-<<<<<<< HEAD
-DNS_NAME: "microservices.petclinic.app"
-=======
 DNS_NAME: "microservices.iguservices.click"
->>>>>>> ee7166f (added helm chart, yaml files:Setting up a Helm v3 chart repository in Amazon S3)
